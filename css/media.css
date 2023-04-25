@@ -1,0 +1,130 @@
+@media (max-width: 1280px) {
+   .main {
+      padding-top: 50px;
+      padding-bottom: 50px;
+   }
+   .main__container {
+      flex-direction: column;
+      align-items: center;
+   }
+   .main__content {
+      padding-right: 0;
+   }
+   .main__title {
+      text-align: center;
+   }
+   .main__title:not(:last-child) {
+      margin-bottom: 25px;
+   }
+   .main__image {
+      flex: 0 0 auto;
+   }
+   .about {
+      padding-top: 70px;
+      padding-bottom: 70px;
+   }
+   .works {
+      padding-top: 70px;
+      padding-bottom: 70px;
+   }
+   .contacts {
+      padding-top: 70px;
+      padding-bottom: 70px;
+   }
+}
+
+@media (max-width: 991.98px) {
+   .about {
+      padding-top: 45px;
+      padding-bottom: 45px;
+   }
+   .about__container {
+      flex-direction: column;
+   }
+   .about__content {
+      text-align: center;
+      padding-right: 0;
+      margin-bottom: 20px;
+   }
+   .about__text {
+      max-width: none;
+   }
+   .title {
+      font-size: 52px;
+   }
+   .works {
+      padding-top: 45px;
+      padding-bottom: 45px;
+   }
+   .contacts {
+      padding-top: 45px;
+      padding-bottom: 45px;
+   }
+   .contacts__container {
+      grid-template-columns: auto;
+   }
+   .contacts__title {
+      text-align: center;
+   }
+   .contacts__image {
+      display: none;
+   }
+}
+
+@media (max-width: 767.98px) {
+   .main {
+      padding-top: 35px;
+      padding-bottom: 35px;
+   }
+   .main__title {
+      font-size: 65px;
+   }
+   .title {
+      font-size: 45px;
+   }
+   .works__title {
+      text-align: center;
+   }
+   .items-works__navigation  {
+      justify-content: center;
+      margin-bottom: 20px;
+   }
+   .items-works__body {
+      gap: 15px;
+   }
+   .form {
+      display: flex;
+      flex-direction: column;
+   }
+   .form__button {
+      width: 100%;
+      
+   }
+}
+
+@media (max-width: 500px) {
+   .header__container {
+      flex-direction: column;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      gap: 10px;
+   }
+   .menu__list {
+      column-gap: 20px;
+   }
+   .page {
+      padding-top: 70px;
+   }
+}
+
+@media (max-width: 479.98px) {
+   .main__title {
+      font-size: 45px;
+   }
+   .main__buttons {
+      gap: 10px;
+      flex-direction: column;
+      align-items: stretch;
+   }
+
+}

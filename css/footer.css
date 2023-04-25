@@ -1,0 +1,43 @@
+.footer {
+   padding-top: 50px;
+   padding-bottom: 50px;
+   border-top: 1px solid rgba(238, 238, 238, 0.1);
+}
+.footer__container {
+}
+.footer__menu {
+}
+.footer__menu:not(:last-child) {
+   margin-bottom: 28px;
+}
+.menu-footer {
+}
+.menu-footer__list {
+   display: flex;
+   column-gap: 50px;
+   row-gap: 15px;
+   flex-wrap: wrap;
+   justify-content: center;
+   align-items: center;
+}
+.menu-footer__item {
+}
+.menu-footer__link {
+   line-height: 24px;
+   color: #eee;
+   padding-left: 34px;
+}
+.menu-footer__link:hover {
+   text-decoration: underline;
+}
+.menu-footer__link-home {
+   background: url(../img/footer/home.svg) left no-repeat;
+}
+.menu-footer__link-about {
+   background: url(../img/footer/about.svg) left no-repeat;
+}
+.menu-footer__link-contact {
+   background: url(../img/footer/contact.svg) left no-repeat;
+}
+.footer__social {
+}
